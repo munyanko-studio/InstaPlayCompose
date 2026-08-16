@@ -17,9 +17,9 @@ title: Privacy Policy
 
 Googleによる情報の取得や利用の詳細については、以下のリンクをご確認ください。
 
-Google ポリシーと規約（テクノロジー）
+[Google ポリシーと規約（テクノロジー）](https://policies.google.com/technologies/ads)
 
-Google による情報収集の仕組み
+[Google による情報収集の仕組み](https://policies.google.com/technologies/partner-sites)
 
 ## 3. 免責事項 
 
