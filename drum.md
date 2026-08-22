@@ -12,11 +12,12 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 - シーケンスモード
 - パターンモード
 
-図 タブ部分>
+![tab](assets/images/drum/drum_tab.jpg)
+
 
 # シーケンスモード
 
-<iframe width="250" height="444" src="https://youtube.com/shorts/tMxX5XyUuiY" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="444" src="https://www.youtube.com/embed/tMxX5XyUuiY" frameborder="0" allowfullscreen></iframe>
 
 
 ## 基本的な使い方
@@ -25,29 +26,22 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 
 曲の展開（1小節〜256小節）にリズムパターンを割り当ててシーケンスを作成します。
 
-図 Sequence-Patternの部分>
+1. 小節の選択
+  - グリッド上の小節マス（1-1, 1-2 など）をタップします。
+2. パターンの割り当て
+  - 下部の Pattern Palette から割り当てたいパターンをタップします。
+  - 選択中の小節にパターンが配置され、自動的に次の小節へ選択が移動します。
+3. シーケンス再生
+  - Play Seq ボタンを押すと、選択されている小節から再生されます。
+  - 終端(以降Emptyのみ)に達した場合には、最初の1-1の小節から繰り返し再生されます。
+  - Stopボタンで停止します。
 
-1. 小節の選択: グリッド上の小節マス（1-1, 1-2 など）をタップします。
-2. パターンの割り当て: 下部の Pattern Palette から割り当てたいパターンをタップします。選択中の小節にパターンが配置され、自動的に次の小節へ選択が移動します。
-3. シーケンス再生: Play Seq ボタンを押すと、割り当てたシーケンスが先頭からループ再生されます（Stop で停止）。
-
-
-上部の「1-1」「1-2」のように番号が書かれた四角形の枠が小節を表しており、
-タップすると選択できます。
-
-別の小節を長押しすると、選択済みの小節から長押しした小節まで、複数の小節を選択できます。
-
-画面下のドラムパターンをタップすると、選択している小節にそのパターンが設定されます。
-
-動画 パターンを設定する様子>
-
-画面上の「PlaySeq」を押すとドラムシーケンスの演奏を確認できます。演奏は選択している小節から開始します。
 
 ## 編集機能
 
-小節の下にある以下のボタンの使い方について説明します
+グリッド上の小節マスの下にある、機能ボタンの使い方について説明します
 
-図 各ボタン>
+![function_buttons](assets/images/drum/drum_function_buttons.jpg)
 
 ### Silent
 
@@ -59,7 +53,7 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 
 長押しの場合には選択中の小節を削除し、後ろの小節を前に詰めます。
 
-小節を未選択状態で、長押しする事で全小節をクリアできます。
+小節が未選択状態で長押しする事で、全小節をクリアできます。
 
 ### Insert
 
@@ -73,7 +67,9 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 挿入の場合には以降の小節を後ろにずらしてから、コピーされた内容が設定されます。
 上書きの場合にはコピーされた内容をそのまま上書きします。
 
-図 挿入・上書きを選択するダイアログ>
+![paste](assets/images/drum/paste_drum_data.jpg)
+
+<iframe width="250" height="444" src="https://www.youtube.com/embed/45yfMChE4C4" frameborder="0" allowfullscreen></iframe>
 
 ### Ref
 
@@ -82,26 +78,27 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 1. 参照を設定したい小節を複数選択します
 2. Refを押して、参照設定ダイアログを開きます
 3. 参照先の小節を指定します
-図 参照先を設定するダイアログ>
+  - ![ref](assets/images/drum/drum_ref.jpg)
 4. LimitEndPositionを有効にした場合には、参照する小節の範囲を指定します。
-図 LimitEndPositionを有効にした場合のダイアログ>
+  - ![ref_with_endpos](assets/images/drum/drum_ref_with_endpos.jpg)
 
-例えば、小節を4つ選択している状態で、参照先を1-2に指定しているとします。
+例えば、小節を4つ選択している状態で、参照先を2-1に指定しているとします。
 
-LimitEndPositionが無効の場合、参照として、1-2, 1-3, 1-4, 2-1 が設定されます。
+LimitEndPositionが無効の場合、2-1, 2-2, 2-3, 2-4 が参照先として設定されます。
 
-動画>
+<iframe width="250" height="444" src="https://www.youtube.com/embed/ODme7Wx9F5c" frameborder="0" allowfullscreen></iframe>
 
-LimitEndPositionに有効の場合で、LimitEndPositionに1-3を指定した場合、
-参照として、1-2, 1-3, 1-2, 1-3 が設定されます。
+LimitEndPositionを有効にし、LimitEndPositionに2-2を指定した場合、
+2-1, 2-2, 2-1, 2-2 が参照先として設定されます。
 
-動画>
+<iframe width="250" height="444" src="https://www.youtube.com/embed/40WMJR16W9U" frameborder="0" allowfullscreen></iframe>
+
 
 # パターンモード
 
 ドラムの音色をグリッドに打ち込んでオリジナルのリズムパターンを作成します。
 
-図 画面全体>
+<iframe width="250" height="444" src="https://www.youtube.com/embed/5P1elfjTKAw" frameborder="0" allowfullscreen></iframe>
 
 ## 基本的な使い方
 
