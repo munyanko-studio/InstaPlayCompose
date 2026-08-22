@@ -1,3 +1,4 @@
 title: InstaPlayCompose
-description: アプリの紹介とプライバシーポリシー
 theme: jekyll-theme-cayman # テーマ名指定
+
+show_downloads: false

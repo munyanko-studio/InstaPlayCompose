@@ -1,3 +1,9 @@
+---
+layout: default
+title: 免責事項
+description:
+---
+
 # 免責事項
 
 ## 【データ形式・互換性について】

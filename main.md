@@ -1,3 +1,8 @@
+---
+layout: default
+title: main画面
+---
+
 # main画面
 
 - 鍵盤の向き、位置の可変・固定を切り替えられます。
