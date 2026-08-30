@@ -49,7 +49,6 @@ InstaPlayCompose は、直感的なタッチ演奏と多機能な伴奏（コー
 - [Drum画面](drum)
   - 既定または編集したドラムパターンを選択し、小節ごとに割り振りできます。
 
-
 画面左上の「ハンバーガーメニュー」(menu)から画面の切り替えや各種設定が可能です。
 
 <table style="border: none; border-collapse: collapse;">
