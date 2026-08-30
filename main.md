@@ -1,7 +1,7 @@
 ---
 layout: default
 title: InstaPlayCompose
-description: main画面
+description: Main画面
 ---
 
 # 概要
@@ -21,20 +21,31 @@ description: main画面
 - ワンタップで即興（ジャム）録音（TrackJam）
   - バッキングを聴きながら鍵盤を弾くだけで、リアルタイムに自分の演奏を録音可能。やり直し（Undo）や消去（Clear）もワンタッチで行えます。
 
-画面全体の図>
+<div style="display: flex; gap: 10px; justify-content: space-between;">
+  <div style="flex: 1;">
+    <img src="assets/images/main/main_normal.jpg" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+  </div>
+  <div style="flex: 1;">
+    <img src="assets/images/main/main_rotate.jpg" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+  </div>
+</div>
 
 
 # 再生操作
 
 伴奏レイヤーの再生・停止および各要素の有効/無効を切り替えます。
 
+![play](assets/images/main/main_play.jpg)
+
 | ボタン | 通常タップ（機能） | 長押し操作 |
 | :--- | :--- | :--- |
-| **`Play` / `Stop`** | 全バッキングレイヤーの再生開始／停止 | 再生を開始する位置（小節Group/Sub）選択ダイアログを表示 |
-| **`T:ON` / `T:OFF`** | トラック再生（Track 1〜3 + TrackJam）のON/OFF | 各トラック（Track 1〜4）の個別ミュート選択ダイアログを表示 |
+| **`Play` / `Stop`** | 全バッキングレイヤーの再生開始／停止 | 再生を開始する位置（小節Group/Sub）選択ダイアログを表示 <br> ![](assets/images/main/main_playback_position.jpg)|
+| **`T:ON` / `T:OFF`** | トラック再生（Track 1〜3 + TrackJam）のON/OFF | 各トラック（Track 1〜4）の個別ミュート選択ダイアログを表示<br> <img src="assets/images/main/main_track_onoff.jpg" width="300">|
 | **`C:ON` / `C:OFF`** | コード伴奏再生（Chord）のON/OFF | - |
 | **`D:ON` / `D:OFF`** | ドラムシーケンサー再生（Drum）のON/OFF | - |
 | **`M:ON` / `M:OFF`** | メトロノーム（Metronome）のON/OFF | - |
+
+左側には、現在再生している小節位置と、対応するChord画面で設定されたコード名が表示されます。
 
 
 # おすすめの使い方・演奏の流れ
@@ -51,10 +62,12 @@ description: main画面
 3. 1小節のカウントインの後、自動で伴奏が流れ始めるので、それに合わせて鍵盤を演奏します。
 4. 演奏が終わったら Save をタップ。録音したフレーズは T:ON（トラック再生）でいつでも確認できます。
 5. 納得がいかない場合は ↺（Undo）を押せばすぐにやり直せます。
+6. 録音したフレーズはTrack画面でJamトラックに格納されており、ピアノロール上で編集可能です。
+  - 微妙にずれた演奏タイミングを、クォンタイズで揃えることができます。
 
 ## 曲の途中（特定の小節）からピンポイントで練習・録音する
 
-1. Play ボタンを長押しして、再生したい小節（例: 4小節単位のGroupやSub）を指定します。
+1. Play ボタンや、Record ボタンを長押しして、再生したい小節（例: 4小節単位のGroupやSub）を指定します。
 2. 弱点箇所の集中練習や、曲の途中からの差し替え録音がスムーズに行えます。
 
 # 知っておくと便利なテクニック
