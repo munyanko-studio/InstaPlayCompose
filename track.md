@@ -6,6 +6,15 @@ description: Track画面
 
 # 概要
 
+<div style="display: flex; gap: 10px; justify-content: space-between;">
+  <div style="flex: 1;">
+    <img src="assets/images/track/track_sample1.png" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+  </div>
+  <div style="flex: 1;">
+    <img src="assets/images/track/track_sample2.png" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+  </div>
+</div>
+
 Track画面（トラックエディタ）は、ピアノロール形式で各トラックのノート（音符）を入力・編集・確認するための画面です。 コード伴奏やドラムパターンに合わせたメロディの作成、フレーズの細かな調整、リアルタイム演奏の録音データの編集を行うことができます。
 
 3つのトラックと、main画面での演奏を保持しているJamトラックの、合計4つのトラックがあります。
@@ -43,22 +52,18 @@ Track画面（トラックエディタ）は、ピアノロール形式で各ト
   - ノートをタップすると消去します（「EraseNote」ツールでも可能）
   - ノートをドラッグすると移動できます（「Move」ツールでも可能）
   - ノートの末尾付近をドラッグするとノートの長さを調整できます（「Stretch」ツールでも可能）
+  - <iframe width="250" height="444" src="https://www.youtube.com/embed/7EhSSyPRq70" frameborder="0" allowfullscreen></iframe>
 
-[動画説明]
-
-
-- 画面のスクロール・ズーム
+- 画面のスクロール
   - グリッド上を2本指（条件によっては1本指でも）で表示位置をスクロールできます
   - 小節番号の部分であれば、1本指で左右にスクロールできます
   - 鍵盤の上の左「<」右「>」の矢印で移動も可能。「◎」でカーソル位置までジャンプします
-
-[動画説明]
+  - <iframe width="250" height="444" src="https://www.youtube.com/embed/LoMWsjrtwsk" frameborder="0" allowfullscreen></iframe>
 
 - カーソル位置の変更
   - 小節番号の部分をタップすると、セルのグリッドに合わせた位置にカーソルを設定できます
   - カーソル位置から再生やステップ入力が開始します
-
-[動画説明]
+  - <iframe width="250" height="444" src="https://www.youtube.com/embed/pzljRwludjM" frameborder="0" allowfullscreen></iframe>
 
 - 選択（「Sel」ツールを選択中）
   - 小節番号の部分をドラッグすることで縦方向にセルを選択でき、その中に存在するノートを選択できます
@@ -69,21 +74,39 @@ Track画面（トラックエディタ）は、ピアノロール形式で各ト
     - クリア(ノートを消すだけ。左詰めはしません)
     - セル単位・オクターブ単位・小節単位でノートの移動が可能
     - クオンタイズ
+      - Quantizeのボタンを長押しで詳細設定が可能です
+  - <iframe width="250" height="444" src="https://www.youtube.com/embed/K_b1Ht9mtXw" frameborder="0" allowfullscreen></iframe>
+
+- 参照（「Ref」ツールを選択中）
+  - [内容説明]
 
 [動画説明]
 
 ## ツールバー（各種編集モード）
 
+![tools](assets/images/track/track_tools.png)
+
+
+画面下部のツールエリアの文字の選択で編集モードを切り替えます。
+
 [図]
 
-画面上部（またはツールエリア）のアイコンで入力モードを切り替えます。
 
 [表]
 
 
-## 下部コントロールパネル
+右のボタンは鍵盤からの入力モードを指定します。
+
+![input_mode](assets/images/track/track_step_hold_realtime.png)
+
+## 再生コントロールパネル
+
+![play](assets/images/track/track_play.png)
 
 main画面と同じく、演奏を制御するためのUIです。
+
+Track,Chord,Drum,MetronomeのON/OFFを切り替えることができます。  
+T:ON/OFF の長押しで個別のトラックのON/OFFを切り替えられます。
 
 左側には再生中の小節位置と、その位置に対応するChord画面に設定されているコードを表示します。
 
