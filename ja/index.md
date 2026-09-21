@@ -4,7 +4,7 @@ title: InstaPlayCompose
 description: ご紹介
 ---
 
-![Title](assets/images/InstaPlayComposeTitle.jpg)
+![Title](../assets/images/InstaPlayComposeTitle.jpg)
 
 # ご紹介
 
@@ -23,16 +23,16 @@ InstaPlayCompose は、直感的なタッチ演奏と多機能な伴奏（コー
 
 <div style="display: flex; gap: 10px; justify-content: space-between;">
   <div style="flex: 1;">
-    <img src="assets/images/main.jpg" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/main.jpg" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
   <div style="flex: 1;">
-    <img src="assets/images/track.jpg" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/track.jpg" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
   <div style="flex: 1;">
-    <img src="assets/images/chord.jpg" alt="chord" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/chord.jpg" alt="chord" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
   <div style="flex: 1;">
-    <img src="assets/images/drum.jpg" alt="drum" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/drum.jpg" alt="drum" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
 </div>
 
@@ -55,7 +55,7 @@ InstaPlayCompose は、直感的なタッチ演奏と多機能な伴奏（コー
 
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 50%;">
-      <img src="assets/images/menu.jpg" alt="画面イメージ" style="max-width: 100%; border: 1px solid #000; border-radius: 4px;">
+      <img src="../assets/images/menu.jpg" alt="画面イメージ" style="max-width: 100%; border: 1px solid #000; border-radius: 4px;">
     </td>
     <td style="border: none; vertical-align: top; width: 50%;" markdown="1">
 

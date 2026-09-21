@@ -12,7 +12,7 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 - シーケンスモード
 - パターンモード
 
-![tab](assets/images/drum/drum_tab.jpg)
+![tab](../assets/images/drum/drum_tab.jpg)
 
 
 # シーケンスモード
@@ -41,7 +41,7 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 
 グリッド上の小節マスの下にある、機能ボタンの使い方について説明します
 
-![function_buttons](assets/images/drum/drum_function_buttons.jpg)
+![function_buttons](../assets/images/drum/drum_function_buttons.jpg)
 
 ### Silent
 
@@ -67,7 +67,7 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 挿入の場合には以降の小節を後ろにずらしてから、コピーされた内容が設定されます。
 上書きの場合にはコピーされた内容をそのまま上書きします。
 
-![paste](assets/images/drum/paste_drum_data.jpg)
+![paste](../assets/images/drum/paste_drum_data.jpg)
 
 <iframe width="250" height="444" src="https://www.youtube.com/embed/45yfMChE4C4" frameborder="0" allowfullscreen></iframe>
 
@@ -78,9 +78,9 @@ InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズ�
 1. 参照を設定したい小節を複数選択します
 2. Refを押して、参照設定ダイアログを開きます
 3. 参照先の小節を指定します
-  - ![ref](assets/images/drum/drum_ref.jpg)
+  - ![ref](../assets/images/drum/drum_ref.jpg)
 4. LimitEndPositionを有効にした場合には、参照する小節の範囲を指定します。
-  - ![ref_with_endpos](assets/images/drum/drum_ref_with_endpos.jpg)
+  - ![ref_with_endpos](../assets/images/drum/drum_ref_with_endpos.jpg)
 
 例えば、小節を4つ選択している状態で、参照先を2-1に指定しているとします。
 

@@ -6,7 +6,7 @@ description: Chord 画面
 
 # 概要
 
-![cord](assets/images/chord/chord.jpg)
+![cord](../assets/images/chord/chord.jpg)
 
 InstaPlayComposeの Chord画面 では、コード進行を編集でき伴奏として使用することができます。
 
@@ -83,7 +83,7 @@ Chord画面のキー設定は、他の画面からChord画面に切り替わっ�
 
 小節マスの下にある、機能ボタンの使い方について説明します
 
-![function_buttons](assets/images/chord/chord_function_buttons.jpg)
+![function_buttons](../assets/images/chord/chord_function_buttons.jpg)
 
 ### Silent
 
@@ -109,7 +109,7 @@ Chord画面のキー設定は、他の画面からChord画面に切り替わっ�
 挿入の場合には以降の小節を後ろにずらしてから、コピーされた内容が設定されます。
 上書きの場合にはコピーされた内容をそのまま上書きします。
 
-![paste](assets/images/chord/chord_paste.jpg)
+![paste](../assets/images/chord/chord_paste.jpg)
 
 <iframe width="250" height="444" src="https://www.youtube.com/embed/3TfnGvo-_ZA" frameborder="0" allowfullscreen></iframe>
 
@@ -126,9 +126,9 @@ Chord画面のキー設定は、他の画面からChord画面に切り替わっ�
 1. 参照を設定したい小節を複数選択します
 2. Refを押して、参照設定ダイアログを開きます
 3. 参照先の小節を指定します
-  - ![ref](assets/images/chord/chord_ref.jpg)
+  - ![ref](../assets/images/chord/chord_ref.jpg)
 4. LimitEndPositionを有効にした場合には、参照する小節の範囲を指定します。
-  - ![ref_with_endpos](assets/images/chord/chord_ref_with_endpos.jpg)
+  - ![ref_with_endpos](../assets/images/chord/chord_ref_with_endpos.jpg)
 
 例えば、小節を4つ選択している状態で、参照先を1-1に指定しているとします。
 

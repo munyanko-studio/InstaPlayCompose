@@ -23,10 +23,10 @@ description: Main画面
 
 <div style="display: flex; gap: 10px; justify-content: space-between;">
   <div style="flex: 1;">
-    <img src="assets/images/main/main_normal.jpg" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/main/main_normal.jpg" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
   <div style="flex: 1;">
-    <img src="assets/images/main/main_rotate.jpg" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/main/main_rotate.jpg" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
 </div>
 
@@ -35,12 +35,12 @@ description: Main画面
 
 伴奏レイヤーの再生・停止および各要素の有効/無効を切り替えます。
 
-![play](assets/images/main/main_play.jpg)
+![play](../assets/images/main/main_play.jpg)
 
 | ボタン | 通常タップ（機能） | 長押し操作 |
 | :--- | :--- | :--- |
-| **`Play` / `Stop`** | 全バッキングレイヤーの再生開始／停止 | 再生を開始する位置（小節Group/Sub）選択ダイアログを表示 <br> ![](assets/images/main/main_playback_position.jpg)|
-| **`T:ON` / `T:OFF`** | トラック再生（Track 1〜3 + TrackJam）のON/OFF | 各トラック（Track 1〜4）の個別ミュート選択ダイアログを表示<br> <img src="assets/images/main/main_track_onoff.jpg" width="300">|
+| **`Play` / `Stop`** | 全バッキングレイヤーの再生開始／停止 | 再生を開始する位置（小節Group/Sub）選択ダイアログを表示 <br> ![](../assets/images/main/main_playback_position.jpg)|
+| **`T:ON` / `T:OFF`** | トラック再生（Track 1〜3 + TrackJam）のON/OFF | 各トラック（Track 1〜4）の個別ミュート選択ダイアログを表示<br> <img src="../assets/images/main/main_track_onoff.jpg" width="300">|
 | **`C:ON` / `C:OFF`** | コード伴奏再生（Chord）のON/OFF | - |
 | **`D:ON` / `D:OFF`** | ドラムシーケンサー再生（Drum）のON/OFF | - |
 | **`M:ON` / `M:OFF`** | メトロノーム（Metronome）のON/OFF | - |

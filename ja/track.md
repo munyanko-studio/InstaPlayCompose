@@ -8,10 +8,10 @@ description: Track画面
 
 <div style="display: flex; gap: 10px; justify-content: space-between;">
   <div style="flex: 1;">
-    <img src="assets/images/track/track_sample1.png" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/track/track_sample1.png" alt="main" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
   <div style="flex: 1;">
-    <img src="assets/images/track/track_sample2.png" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
+    <img src="../assets/images/track/track_sample2.png" alt="track" style="width: 95%; height: auto; border: 1px solid #000; border-radius: 4px;">
   </div>
 </div>
 
@@ -84,7 +84,7 @@ Track画面（トラックエディタ）は、ピアノロール形式で各ト
   2. Refを押して、参照設定ダイアログを開きます
   3. 参照先の小節を指定します
   4. LimitEndPositionを有効にした場合には、参照する小節の範囲を指定します。
-    - ![ref_with_endpos](assets/images/chord/chord_ref_with_endpos.jpg)
+    - ![ref_with_endpos](../assets/images/chord/chord_ref_with_endpos.jpg)
   - 例えば、小節を4つ選択している状態で、参照先を1-1に指定しているとします。
     - LimitEndPositionが無効の場合、
       - 1-1, 1-2, 1-3, 1-4 が参照先として設定されます。
@@ -95,7 +95,7 @@ Track画面（トラックエディタ）は、ピアノロール形式で各ト
 
 ## ツールバー（各種編集モード）
 
-![tools](assets/images/track/track_tools.png)
+![tools](../assets/images/track/track_tools.png)
 
 
 画面下部のツールエリアの文字の選択で編集モードを切り替えます。
@@ -166,7 +166,7 @@ Track画面（トラックエディタ）は、ピアノロール形式で各ト
 
 鍵盤下の右のボタンは鍵盤からの入力モードを指定します。
 
-![input_mode](assets/images/track/track_step_hold_realtime.png)
+![input_mode](../assets/images/track/track_step_hold_realtime.png)
 
 ### 1. `NONE` (ノーマル / 試奏)
 
@@ -252,7 +252,7 @@ Track画面（トラックエディタ）は、ピアノロール形式で各ト
 
 ## 再生コントロールパネル
 
-![play](assets/images/track/track_play.png)
+![play](../assets/images/track/track_play.png)
 
 main画面と同じく、演奏を制御するためのUIです。
 
@@ -295,4 +295,4 @@ Overlayで他のトラックを表示していると再生がつまずいたり�
 OverlayをNoneに設定していただくか、Track画面を表示している状態でハンバーガーメニューのTrackをタップして、
 「Play with Overlay On」を OFF にし、再生時のOverlay表示が無効になる設定を試してみてください。
 
-![Play with Overlay On](assets/images/track/track_play_with_overlay.png)
+![Play with Overlay On](../assets/images/track/track_play_with_overlay.png)
