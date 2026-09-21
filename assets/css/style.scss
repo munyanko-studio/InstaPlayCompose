@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hide View on GitHub button */
+.page-header .btn,
+.btn {
+  display: none !important;
+}
