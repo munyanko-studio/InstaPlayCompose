@@ -4,6 +4,8 @@ title: InstaPlayCompose
 description: Chord 画面
 ---
 
+[English](../en/chord) | **日本語**
+
 # 概要
 
 ![cord](../assets/images/chord/chord.jpg)

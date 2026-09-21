@@ -4,6 +4,8 @@ title: InstaPlayCompose
 description: ConfigureLoop設定と小節位置
 ---
 
+[English](../en/playflow) | **日本語**
+
 ---
 
 # 概要

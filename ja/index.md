@@ -4,6 +4,8 @@ title: InstaPlayCompose
 description: ご紹介
 ---
 
+[English](../en/) | **日本語**
+
 ![Title](../assets/images/InstaPlayComposeTitle.jpg)
 
 # ご紹介

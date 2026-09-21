@@ -3,6 +3,8 @@ layout: default
 title: Privacy Policy
 ---
 
+[English](../en/privacy-policy) | **日本語**
+
 # InstaPlayCompose プライバシーポリシー
 
 ## 1. 個人情報の収集について 

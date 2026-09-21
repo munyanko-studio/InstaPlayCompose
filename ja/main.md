@@ -4,6 +4,8 @@ title: InstaPlayCompose
 description: Main画面
 ---
 
+[English](../en/main) | **日本語**
+
 # 概要
 
 メイン画面（Main Screen）は、

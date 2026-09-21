@@ -4,6 +4,8 @@ title: InstaPlayCompose
 description: Drum 画面
 ---
 
+[English](../en/drum) | **日本語**
+
 # 概要
 
 InstaPlayComposeの Drum画面 では、ドラムパターンの作成（リズム打ち込み）から、それらを繋ぎ合わせて曲全体のドラムトラックを作成（シーケンス構築）することができます。

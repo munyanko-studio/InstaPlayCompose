@@ -4,6 +4,8 @@ title: InstaPlayCompose
 description: Track画面
 ---
 
+[English](../en/track) | **日本語**
+
 # 概要
 
 <div style="display: flex; gap: 10px; justify-content: space-between;">

@@ -4,6 +4,8 @@ title: 免責事項
 description:
 ---
 
+[English](../en/disclaimer) | **日本語**
+
 # 免責事項
 
 ## 【データ形式・互換性について】
