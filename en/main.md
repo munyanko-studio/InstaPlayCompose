@@ -66,23 +66,18 @@ The left section displays the currently playing bar position and the correspondi
 
 # Pro Tips & Techniques
 
-> [!TIP]  
-> **Make Use of Long-Press Shortcuts**
+> 💡 **Tip: Make Use of Long-Press Shortcuts**
 > - **Long-press `Record`**: Open punch-in recording dialog from a specific bar (perfect for re-recording a specific phrase!).
 > - **Long-press `Play`**: Open playback start position dialog (ideal for looping and practicing a hook or bridge!).
 > - **Long-press `T:ON`**: Toggle solo/mute for individual tracks (Tracks 1〜3 and TrackJam).
 
-> [!NOTE]  
-> **Switching between Scroll and Glissando Modes**
+> 📝 **Note: Switching between Scroll and Glissando Modes**
 > - **Scroll Mode (`Lock: OFF`)**: Drag on screen to freely navigate to different pitch registers.
 > - **Glissando Mode (`Lock: ON`)**: Locks screen scrolling so you can slide your finger across keys for fast glissando runs and accurate chord playing.
-> **Turn `Rotate` ON**
-> - Vertically aligns the keys, increasing the number of visible horizontal keys for a natural, wider playing range.
+> - **Turn `Rotate: ON`**: Vertically aligns the keys, increasing the number of visible horizontal keys for a natural, wider playing range.
 
-> [!IMPORTANT]  
-> **Punch-in Recording Behavior**
+> ⚠️ **Important: Punch-in Recording Behavior**
 > When starting recording from a specific bar (e.g., Group 2 - Sub 1) via long-press `Record`, **only TrackJam notes from that point forward are overwritten**. Notes prior to the starting point are safely preserved.
 
-> [!TIP]  
-> **Rotate Screen for Different Play Styles**
+> ⭐ **Recommended: Rotate Screen for Different Play Styles**
 > Turning ON the **Rotate** switch rotates the keyboard 90 degrees. This makes two-thumb playing while holding your smartphone vertically or fast one-handed scale navigation remarkably comfortable.

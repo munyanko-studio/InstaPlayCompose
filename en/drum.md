@@ -92,9 +92,9 @@ Tap any cell on the grid to toggle the sound on/off (previews sound upon tap).
 - **Reset**: Restores preset patterns to their default state.
 - **Play Pattern**: Loops and previews the pattern in real time while editing.
 
-# Tips & FAQ
+# 💡 Tips & FAQ
 
-- **Q. How to select multiple bars at once?**
+- ❓ **Q. How to select multiple bars at once?**
   - Tap the start bar, then long-press the end bar to select the entire span.
-- **Q. How to extend or shorten song length?**
+- ❓ **Q. How to extend or shorten song length?**
   - Use **Insert** to add bars or long-press **Erase** to delete bars and pull subsequent bars forward.

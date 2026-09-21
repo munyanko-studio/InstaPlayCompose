@@ -116,9 +116,9 @@ For example, when 4 bars are selected with reference set to `1-1`:
 <iframe width="250" height="444" src="https://www.youtube.com/embed/nX6oB9yRdIo" frameborder="0" allowfullscreen></iframe>
 <iframe width="250" height="444" src="https://www.youtube.com/embed/VTHSTHZTu-w" frameborder="0" allowfullscreen></iframe>
 
-# Tips & FAQ
+# 💡 Tips & FAQ
 
-- **Q. How to select multiple bars at once?**
+- ❓ **Q. How to select multiple bars at once?**
   - Tap the first bar, then long-press the end bar of your desired range to select all bars in between.
-- **Q. How to preview chord sounds?**
+- ❓ **Q. How to preview chord sounds?**
   - With no bars selected, hold down any chord button in the palette to audition the chord with its active pattern.

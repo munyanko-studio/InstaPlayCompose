@@ -56,7 +56,7 @@ Tapping the bar number (e.g. `01-1`) toggles between **Absolute Position (Defaul
 
 ---
 
-## 4. FAQ
+## 4. ❓ FAQ
 
 #### Q1. While recording the Jam Track, its bar number differs from other tracks. Is this a bug?
 **No, this is intended behavior.**

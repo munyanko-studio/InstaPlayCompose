@@ -82,11 +82,11 @@ Access navigation and various settings from the **Hamburger Menu** (top-left of 
 </tr>
 </table>
 
-# Limitations
+# ⚠️ Limitations
 
 - Only 4/4 time signature is currently supported.
 - Supports up to 256 bars (up to 396 bars for the Jam Track).
 
-# Disclaimer
+# 📄 Disclaimer
 
 Please refer to the [Disclaimer](disclaimer).

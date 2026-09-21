@@ -118,7 +118,7 @@ Controls global playback and solo/mute states (T, C, D, M) identically to the Ma
 
 ---
 
-# FAQ
+# ❓ FAQ
 
 #### Q1. Notes are entered, but no sound plays during playback.
 1. Check that `T:ON` is enabled on the bottom panel.
